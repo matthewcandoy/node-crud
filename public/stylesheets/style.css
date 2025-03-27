@@ -1,0 +1,122 @@
+body {
+  padding: 30px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e2f; /* Darker background for contrast */
+}
+
+.container {
+  padding: 25px;
+  background-color: #00AEEF;
+  width: 420px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+.container h3 a {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #00AE4D;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.container h3 a:hover, 
+.container table tr td button:hover {
+  background-color: #78F5AE;
+  color: #333333;
+}
+
+.container table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.container table tr td {
+  padding: 8px;
+}
+
+.container table tr td input, 
+.container table tr td textarea {
+  border: solid 1px #cccccc;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  color: #333333;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+}
+
+.container table tr td input:focus, 
+.container table tr td textarea:focus {
+  border-color: #00AE4D;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 174, 77, 0.5);
+}
+
+.container table tr td button {
+  border: none;
+  background-color: #00AE4D;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container form button {
+  border: none;
+  background-color: #DD4B39;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container form button:hover {
+  background-color: #c23321;
+}
+
+.container .list-table {
+  width: 100%;
+  border: solid 2px #DDDDDD;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.container .list-table th {
+  border-bottom: solid 2px #DDDDDD;
+  padding: 12px;
+  background-color: #00AE4D;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container .list-table td {
+  padding: 10px;
+  color: #333;
+}
